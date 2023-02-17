@@ -1,5 +1,5 @@
-import Item from "../item/Item";
-import Company from "./Company";
+import Item from "../../layouts/item/Item";
+import Company from "./company/Company";
 import Projects from "./Projects";
 
 const DUMMY_COMPANY = {
@@ -8,12 +8,17 @@ const DUMMY_COMPANY = {
     from: "201802",
     to: "202209",
   },
+  position: "개발팀/대리",
 };
 
 const WorkExperience = () => {
   return (
     <Item>
-      <Company name={DUMMY_COMPANY.name} period={DUMMY_COMPANY.period} />
+      <Company
+        name={DUMMY_COMPANY.name}
+        period={DUMMY_COMPANY.period}
+        position={DUMMY_COMPANY.position}
+      />
       <Projects />
     </Item>
   );

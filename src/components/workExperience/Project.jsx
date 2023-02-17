@@ -10,8 +10,8 @@ const Project = ({ title, period, description, skills }) => {
       <div>
         <h5>설명</h5>
         <ul>
-          {description.map((value) => (
-            <li>{value}</li>
+          {description.map(({ id, value }) => (
+            <li key={id}>{value}</li>
           ))}
         </ul>
         <h5>기술</h5>
