@@ -1,0 +1,8 @@
+.intro {
+  text-align: center;
+}
+
+.intro > p {
+  font-size: 1.6rem;
+  text-align: left;
+}

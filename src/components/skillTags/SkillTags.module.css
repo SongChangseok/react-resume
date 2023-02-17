@@ -1,0 +1,7 @@
+.skillTags {
+  margin: 0;
+}
+
+.skillTags > img {
+  margin: 0 0.2rem 0 0;
+}
