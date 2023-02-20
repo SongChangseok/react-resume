@@ -1,5 +1,5 @@
-import Period from "../period/Period";
-import SkillTags from "../skillTags/SkillTags";
+import Period from "../../period/Period";
+import SkillTags from "../../skillTags/SkillTags";
 import classes from "./Project.module.css";
 
 const Project = ({ title, period, description, skills }) => {

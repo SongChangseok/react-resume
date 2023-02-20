@@ -5,6 +5,7 @@
 .intro > p {
   font-size: 1.6rem;
   text-align: left;
+  margin: 2rem 0;
 }
 
 @media screen and (max-width: 1024px) {
