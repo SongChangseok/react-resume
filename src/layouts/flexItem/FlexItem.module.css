@@ -1,24 +1,25 @@
-.work_item {
+.flex_item {
   display: flex;
   padding: 1rem 0;
+  margin: 0 0 2rem 0;
   border-bottom: 1px solid #1e1e1e;
 }
 
-.work_item > div {
+.flex_item > div {
   flex-grow: 1;
 }
 
-.work_item > div:first-child {
+.flex_item > div:first-child {
   padding-right: 3rem;
   flex-shrink: 0;
 }
 
 @media screen and (max-width: 960px) {
-  .work_item {
+  .flex_item {
     flex-direction: column;
   }
 
-  .work_item > div:first-child {
+  .flex_item > div:first-child {
     flex-basis: 100%;
     padding-right: 0;
     padding-bottom: 1rem;

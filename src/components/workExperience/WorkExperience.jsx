@@ -1,4 +1,4 @@
-import WorkItem from "./workItem/WorkItem";
+import FlexItem from "../../layouts/flexItem/FlexItem";
 import Company from "./company/Company";
 import Projects from "./projects/Projects";
 
@@ -18,7 +18,7 @@ const DUMMY_WORK = [
         id: 1,
         title: "React 기반 사내 관리시스템",
         period: { from: "202208", to: "202209" },
-        description: [
+        descriptions: [
           {
             id: 1,
             value: "기존에 jquery로 만들어진 사내 관리시스템을 react로 변환",
@@ -35,7 +35,7 @@ const DUMMY_WORK = [
         id: 2,
         title: "도시가스 고객업무 시스템",
         period: { from: "202012", to: "202205" },
-        description: [
+        descriptions: [
           { id: 1, value: "도시가스의 고객 민원을 처리하기 위한 웹 개발" },
           {
             id: 2,
@@ -73,7 +73,7 @@ const DUMMY_WORK = [
         id: 3,
         title: "도시가스 통합시설물 시스템",
         period: { from: "201907", to: "202201" },
-        description: [
+        descriptions: [
           { id: 1, value: "도시가스의 시설물 관리를 위한 웹 개발" },
           {
             id: 2,
@@ -93,7 +93,7 @@ const DUMMY_WORK = [
         id: 4,
         title: "도시가스 현장업무 시스템",
         period: { from: "201802", to: "202209" },
-        description: [
+        descriptions: [
           { id: 1, value: "도시가스의 현장 업무를 위한 하이브리드 앱 개발" },
           { id: 2, value: "검침, 교체, 점검, 체납 등의 각 단위 페이지 작성" },
           { id: 3, value: "지도 API 연동, 바코드 스캐너 및 카메라 호출" },
@@ -115,14 +115,14 @@ const DUMMY_WORK = [
 
 const WorkExperience = () => {
   return DUMMY_WORK.map(({ id, company, projects }) => (
-    <WorkItem key={id}>
+    <FlexItem key={id}>
       <Company
         name={company.name}
         period={company.period}
         position={company.position}
       />
       <Projects projects={projects} />
-    </WorkItem>
+    </FlexItem>
   ));
 };
 
