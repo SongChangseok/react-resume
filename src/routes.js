@@ -3,12 +3,12 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Header from "./layouts/header/Header";
 import Main from "./pages/main";
+import Layout from "./layouts/Layout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Header />}>
+    <Route path="/" element={<Layout />}>
       <Route index element={<Main />} />
     </Route>
   )
