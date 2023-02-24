@@ -7,13 +7,13 @@ html {
   font-family: "Nanum Gothic Coding", sans-serif;
   word-break: keep-all;
   line-height: 1.4;
-  background-color: black;
-  color: #e2e2e2;
+  background-color: var(--background);
+  color: var(--text);
 }
 
 a,
 a:visited {
-  color: #247ba0;
+  color: var(--link);
 }
 
 @media screen and (max-width: 1024px) {
@@ -38,7 +38,7 @@ h2 {
   font-size: 1.5rem;
   margin: 0 0 0.6rem 0;
   padding-left: 0.4rem;
-  border-left: 6px solid #e50914;
+  border-left: 6px solid var(--border);
 }
 
 h3 {

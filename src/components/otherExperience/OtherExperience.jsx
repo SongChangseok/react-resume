@@ -1,4 +1,3 @@
-import Period from "../period/Period";
 import OtherTitle from "./OtherTitle";
 import OtherDescription from "./otherDescriptions/OtherDescriptions";
 import Item from "../../layouts/item/Item";

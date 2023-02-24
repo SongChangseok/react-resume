@@ -69,7 +69,7 @@ const Footer = () => {
                     display: "inline-block",
                     margin: "0 0.4rem 0 0.4rem",
                     fontWeight: "600",
-                    color: "#605f5e",
+                    color: "var(--sub-text)",
                     fontSize: "1.2rem",
                   }}
                 >
@@ -99,7 +99,7 @@ const Footer = () => {
                 style={{
                   fontSize: "1.2rem",
                   fontWeight: 600,
-                  color: "#605f5e",
+                  color: "var(--sub-text)",
                 }}
               >
                 <span>깃허브</span>
@@ -108,7 +108,7 @@ const Footer = () => {
                     display: "inline-block",
                     margin: "0 0.4rem 0 0.4rem",
                     fontWeight: "400",
-                    color: "#605f5e",
+                    color: "var(--sub-text)",
                     fontSize: "1rem",
                   }}
                 >
@@ -120,7 +120,7 @@ const Footer = () => {
                     display: "inline-block",
                     margin: "0 0.4rem 0 0.4rem",
                     fontWeight: "400",
-                    color: "#605f5e",
+                    color: "var(--sub-text)",
                     fontSize: "1rem",
                   }}
                 >

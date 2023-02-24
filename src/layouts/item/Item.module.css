@@ -1,6 +1,6 @@
 .item {
   padding: 1rem 0;
-  border-bottom: 1px solid #1e1e1e;
+  border-bottom: 1px solid var(--dividing);
   margin: 0 0 2rem 0;
 }
 
