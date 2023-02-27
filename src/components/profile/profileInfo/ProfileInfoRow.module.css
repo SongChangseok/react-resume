@@ -1,0 +1,20 @@
+.profileInfoRow {
+  font-size: 1.8rem;
+}
+
+.profileInfoHead {
+  font-size: 1.4rem;
+  display: inline-block;
+  padding-right: 1rem;
+  color: var(--sub-text);
+}
+
+@media screen and (max-width: 1024px) {
+  .profileInfoRow {
+    font-size: 1.4rem;
+  }
+
+  .profileInfoHead {
+    font-size: 1rem;
+  }
+}

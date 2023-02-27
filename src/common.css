@@ -1,32 +1,4 @@
 /* :root {
-  --background: #1b1b1e;
-  --sub-background: #373f51;
-  --text: #d8dbe2;
-  --link: #a9bcd0;
-  --border: #58a4b0;
-  --sub-text: #f3dfa2;
-} */
-
-/* :root {
-  --background: #011627;
-  --sub-background: #0a2463;
-  --text: #fdfffc;
-  --link: #2ec4b6;
-  --border: #e71d36;
-  --sub-text: #ff9f1c;
-} */
-
-/* :root {
-  --background: #231f20;
-  --sub-background: #253237;
-  --text: #efe6dd;
-  --link: #f3dfa2;
-  --border: #bb4430;
-  --sub-text: #f3dfa2;
-  --dividing: #253237;
-} */
-
-/* :root {
   --background: #02040f;
   --sub-background: #002642;
   --text: #e5dada;
@@ -35,21 +7,20 @@
   --sub-text: #e59500;
 } */
 
-/* :root {
+:root {
   --background: #252422;
   --sub-background: #403d39;
   --text: #fffcf2;
   --link: #ccc5b9;
   --border: #eb5e28;
-  --sub-text: #ccc5b9;
-} */
+  --sub-text: #eb5e28;
+  --dividing: #403d39;
+}
 
-:root {
-  --background: #231f20;
-  --sub-background: #2c2b28;
-  --text: #efe6dd;
-  --link: #7ebdc2;
-  --border: #bb4430;
-  --sub-text: #7ebdc2;
-  --dividing: #253237;
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
