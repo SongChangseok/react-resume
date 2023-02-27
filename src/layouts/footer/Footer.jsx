@@ -1,5 +1,3 @@
-import Article from "../article/Article";
-import Container from "../container/Container";
 import classes from "./Footer.module.css";
 
 const Footer = () => {
