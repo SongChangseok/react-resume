@@ -1,11 +1,12 @@
 import classes from "./ProfileInfoRow.module.css";
 
-const ProfileInfoRow = ({ title, children }) => {
+const ProfileInfoRow = ({ children, title }) => {
   return (
     <div className={classes.profileInfoRow}>
-      {title && <span className={classes.profileInfoHead}>{title}</span>}
-      <span>{children}</span>
+      <span className={classes.profileInfoLeft}>{title}</span>
+      <span className={classes.profileInfoRight}>{children}</span>
     </div>
   );
 };
+
 export default ProfileInfoRow;

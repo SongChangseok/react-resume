@@ -1,20 +1,15 @@
 .profileInfoRow {
-  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
 }
 
-.profileInfoHead {
-  font-size: 1.4rem;
-  display: inline-block;
-  padding-right: 1rem;
+.profileInfoLeft {
+  padding-right: 0.6rem;
   color: var(--sub-text);
+  font-size: 1.2rem;
+  flex-basis: 3rem;
+  text-align: right;
 }
-
-@media screen and (max-width: 1024px) {
-  .profileInfoRow {
-    font-size: 1.4rem;
-  }
-
-  .profileInfoHead {
-    font-size: 1rem;
-  }
+.profileInfoRight {
+  font-size: 1.4rem;
 }
