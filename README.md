@@ -1,9 +1,12 @@
 # Resume(송창석)
 
+react 기반 이력서 웹
+
 ## Description
 
 - skills: react, javascript, html, css
 - url: https://react-resume-css.web.app/
+- hosting: firebase
 
 ## TODO
 
